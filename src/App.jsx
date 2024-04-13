@@ -1,20 +1,16 @@
-import Hero from './components/Hero'
-import Demo from './components/Demo'
+import Hero from "./components/Hero";
+import Demo from "./components/Demo";
 
-import './App.css'
+import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <main>
-      <div className='main'>
-        <div className='gradient' />
-        <div className='app'>
-          <Hero />
-          <Demo />
-        </div>
+    <main className="main">
+      <div className="gradient" />
+      <div className="app">
+        <Hero />
+        <Demo />
       </div>
     </main>
   )
 }
-
-export default App
