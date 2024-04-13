@@ -68,7 +68,7 @@
 /* Tailwind Styles */
 
 .app {
-  @apply w-full relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6 max-h-[fit-content] h-[fit-content];
+  @apply w-full relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6 h-[fit-content];
 }
 
 .black_btn {
@@ -96,7 +96,7 @@
 }
 
 .link_card {
-  @apply p-3 flex justify-start items-center flex-row bg-white border border-gray-200 gap-3 rounded-lg cursor-pointer;
+  @apply p-3 flex justify-start items-center flex-row bg-white border border-gray-200 gap-3 rounded-lg;
 }
 
 .copy_btn {

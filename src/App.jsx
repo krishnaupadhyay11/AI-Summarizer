@@ -5,8 +5,11 @@ import './App.css';
 
 export default function App() {
   return (
-    <main className="main">
-      <div className="gradient" />
+    <main>
+      <div className="main">
+        <div className="gradient" />
+      </div>
+      
       <div className="app">
         <Hero />
         <Demo />
